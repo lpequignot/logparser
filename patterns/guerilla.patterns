@@ -1,0 +1,2 @@
+GUERILLA_LUA_ERROR ./gjob.lua:(%{NUMBER:line_error}): command %{GREEDYDATA:command_error} failed
+GUERILLA_ERROR %{GUERILLA_LUA_ERROR}

@@ -1,0 +1,38 @@
+[
+    {
+        "action": "%{@LINE}",
+        "description": "line matched print in standard output",
+        "name": "print line matched",
+        "type": "stdout"
+    },
+    {
+        "action": "%{@MATCH}",
+        "description": "substring matched print in standard output",
+        "name": "print substring matched",
+        "type": "stdout"
+    },
+    {
+        "action": "%{@PATTERNS}",
+        "description": "full set of patterns matched print in standard output",
+        "name": "print patterns matched",
+        "type": "stdout"
+    },
+    {
+        "action": "updatejobenv %{@LINE}",
+        "description": "update job environment with current",
+        "name": "updatejobenv",
+        "type": "subprocess"
+    },
+    {
+        "action": "echo %{@PATTERNS|shellescape}",
+        "description": "echo all matched patterns",
+        "name": "echo patterns",
+        "type": "subprocess"
+    },
+    {
+        "action": "python -c \"print(%{@JSON|jsonencode})\"",
+        "description": "python print json matched values",
+        "name": "python print command",
+        "type": "subprocess"
+    }
+]

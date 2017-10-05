@@ -1,0 +1,25 @@
+{
+    "%{PYTHON_ERROR}": {
+        "captures": [
+            "{\"PYTHON_TAB_ERROR\": null, \"PYTHON_ZERODIVISION_ERROR\": null, \"PYTHON_VALUE_ERROR\": null, \"PYTHON_NOTIMPLEMENTED_ERROR\": null, \"PYTHON_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_INDEX_ERROR\": null, \"PYTHON_ATTRIBUTE_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_RUNTIME_ERROR\": null, \"PYTHON_KEY_ERROR\": null, \"PYTHON_SYNTAX_ERROR\": null, \"python_error\": \"'module' object has no attribute 'addtoshelf'\", \"PYTHON_UNICODE_ERROR\": null, \"PYTHON_IMPORT_ERROR\": null, \"PYTHON_TYPE_ERROR\": null, \"PYTHON_SYSTEM_ERROR\": null, \"PYTHON_NAME_ERROR\": null}",
+            "{\"PYTHON_TAB_ERROR\": null, \"PYTHON_ZERODIVISION_ERROR\": null, \"PYTHON_VALUE_ERROR\": null, \"PYTHON_NOTIMPLEMENTED_ERROR\": null, \"PYTHON_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_INDEX_ERROR\": null, \"PYTHON_ATTRIBUTE_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_RUNTIME_ERROR\": null, \"PYTHON_KEY_ERROR\": null, \"PYTHON_SYNTAX_ERROR\": null, \"python_error\": \"'module' object has no attribute 'addtoshelf'\", \"PYTHON_UNICODE_ERROR\": null, \"PYTHON_IMPORT_ERROR\": null, \"PYTHON_TYPE_ERROR\": null, \"PYTHON_SYSTEM_ERROR\": null, \"PYTHON_NAME_ERROR\": null}",
+            "{\"PYTHON_TAB_ERROR\": null, \"PYTHON_ZERODIVISION_ERROR\": null, \"PYTHON_VALUE_ERROR\": null, \"PYTHON_NOTIMPLEMENTED_ERROR\": null, \"PYTHON_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_INDEX_ERROR\": null, \"PYTHON_ATTRIBUTE_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_RUNTIME_ERROR\": null, \"PYTHON_KEY_ERROR\": null, \"PYTHON_SYNTAX_ERROR\": null, \"python_error\": \"'module' object has no attribute 'addtoshelf'\", \"PYTHON_UNICODE_ERROR\": null, \"PYTHON_IMPORT_ERROR\": null, \"PYTHON_TYPE_ERROR\": null, \"PYTHON_SYSTEM_ERROR\": null, \"PYTHON_NAME_ERROR\": null}",
+            "{\"PYTHON_TAB_ERROR\": null, \"PYTHON_ZERODIVISION_ERROR\": null, \"PYTHON_VALUE_ERROR\": null, \"PYTHON_NOTIMPLEMENTED_ERROR\": null, \"PYTHON_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_INDEX_ERROR\": null, \"PYTHON_ATTRIBUTE_ERROR\": \"AttributeError: 'module' object has no attribute 'addtoshelf'\", \"PYTHON_RUNTIME_ERROR\": null, \"PYTHON_KEY_ERROR\": null, \"PYTHON_SYNTAX_ERROR\": null, \"python_error\": \"'module' object has no attribute 'addtoshelf'\", \"PYTHON_UNICODE_ERROR\": null, \"PYTHON_IMPORT_ERROR\": null, \"PYTHON_TYPE_ERROR\": null, \"PYTHON_SYSTEM_ERROR\": null, \"PYTHON_NAME_ERROR\": null}"
+        ],
+        "inputs": [
+            "/on/work/lpequignot/.packages/logparser/dev/logs/80320.log",
+            "/on/work/lpequignot/.packages/logparser/dev/logs/89502.log",
+            "/on/work/lpequignot/.packages/logparser/dev/logs/89517.log",
+            "/on/work/lpequignot/.packages/logparser/dev/logs/89532.log"
+        ],
+        "topfive": [
+            [
+                "AttributeError: 'module' object has no attribute 'addtoshelf'",
+                100.0,
+                4
+            ]
+        ],
+        "total": 4
+    },
+    "total": 52
+}

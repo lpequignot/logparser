@@ -1,0 +1,17 @@
+*.pyc
+build
+*~
+.project
+.pydevproject
+.settings
+*.swp
+*.swo
+
+python/bin/
+python/dist/
+python/include/
+python/lib/
+python/local/
+python/*.egg-info/
+python/pip-selfcheck.json
+tags

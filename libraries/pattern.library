@@ -1,0 +1,20 @@
+[
+    {
+        "description": "colation job failed or killed",
+        "name": "coalition job failure",
+        "pattern" : "EXIT : %{COALITION_JOB_FAILURE}",
+        "type": "pattern"
+    },
+    {
+        "description": "match package version in REZ_USED_RESOLVE",
+        "name": "rez used resolve",
+        "pattern" : "%{REZ_USED_RESOLVE =~ /dispatcher-dev/}",
+        "type": "regex"
+    },
+    {
+        "description": "match filename in PYTHON_TRACEBACK_ERROR",
+        "name": "python file error",
+        "pattern" : "%{PYTHON_TRACEBACK_ERROR =~ /userSetup.py/}",
+        "type": "regex"
+    }
+]
