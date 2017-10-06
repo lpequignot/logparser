@@ -18,12 +18,6 @@
         "type": "stdout"
     },
     {
-        "action": "updatejobenv %{@LINE}",
-        "description": "update job environment with current",
-        "name": "updatejobenv",
-        "type": "subprocess"
-    },
-    {
         "action": "echo %{@PATTERNS|shellescape}",
         "description": "echo all matched patterns",
         "name": "echo patterns",
